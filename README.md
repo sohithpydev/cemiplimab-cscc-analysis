@@ -161,7 +161,7 @@ jupyter notebook post_launch/post_launch_analysis.ipynb
 ## 📑 Citation Instructions
 If you find this research repository or its data useful in your scientific work, please cite it as:
 ```text
-Cemiplimab (Libtayo®) cSCC Research Repository, 2026. Available at: https://github.com/your-username/cemiplimab
+Cemiplimab (Libtayo®) cSCC Research Repository, 2026. Available at: https://github.com/sohithpydev/cemiplimab-cscc-analysis
 ```
 All scientific statements are supported by primary publications cited in [references.md](file:///Users/sohith/Desktop/cemiplimab/references/references.md).
 
