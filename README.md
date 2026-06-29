@@ -6,6 +6,16 @@ This project integrates clinical oncology evidence, structural molecular biology
 
 ---
 
+## 🔬 Scientific Motivation and Objectives
+Cutaneous squamous cell carcinoma (cSCC) is the second most common skin cancer globally. Although surgery is usually curative, patients with locally advanced or metastatic disease historically faced poor prognoses with toxic, palliative chemotherapies or off-label EGFR inhibitors. 
+
+The approval of cemiplimab, a high-affinity anti-PD-1 monoclonal antibody, marked a paradigm shift in advanced non-melanoma skin cancers. This repository serves as a centralized, open-source resource designed to:
+1.  **Synthesize Clinical & Biological Data:** Provide reproducible, curated datasets summarizing pharmacology, efficacy, subgroup safety, biomarker distributions, patent portfolios, commercial growth, and health economic models.
+2.  **Evaluate Market Economics:** normalise currency fluctuations to analyze geographic pricing disparities, reimbursement criteria, and global healthcare utility.
+3.  **Bridge Trials with Practice:** Analyze real-world observational registries alongside clinical trials to validate patient survival outside controlled environments.
+
+---
+
 ## 🔬 Key Research Components
 
 ### 1. Mechanism of Action (MoA) & Pharmacology
@@ -81,21 +91,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
 *   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases and timeline notebook.
 *   📂 [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) — Commercial strategy, competitor datasets, and guidelines.
-*   📂 [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) — Pricing, revenue, and health economics models.
+*   📂 [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) — Pricing and revenue datasets, reimbursement details, health economics reviews, and currency normalization notebooks.
 *   📂 [post_launch/](file:///Users/sohith/Desktop/cemiplimab/post_launch) — Real-world evidence databases, safety registries, guideline updates, and future clinical directions.
-    *   [post_launch_summary.csv](file:///Users/sohith/Desktop/cemiplimab/post_launch/post_launch_summary.csv)
-    *   [post_launch_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/post_launch/post_launch_analysis.ipynb)
-    *   [real_world_evidence.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/real_world_evidence.md)
-    *   [long_term_safety.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/long_term_safety.md)
-    *   [pharmacovigilance.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/pharmacovigilance.md)
-    *   [adoption.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/adoption.md)
-    *   [guideline_updates.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/guideline_updates.md)
-    *   [future_directions.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/future_directions.md)
 *   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
 *   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [rwe_vs_clinical_trial.png](file:///Users/sohith/Desktop/cemiplimab/figures/rwe_vs_clinical_trial.png)
-    *   [rwe_survival_benchmarks.png](file:///Users/sohith/Desktop/cemiplimab/figures/rwe_survival_benchmarks.png)
+*   📂 [references/](file:///Users/sohith/Desktop/cemiplimab/references) — Scientific bibliography and references (BibTeX/Markdown).
+*   📂 [blog/](file:///Users/sohith/Desktop/cemiplimab/blog) — Technical articles reviewing each research phase.
 
 ---
 
@@ -122,38 +124,53 @@ This project integrates clinical oncology evidence, structural molecular biology
 ![Revenue Trend](figures/financial_revenue_trend.png)
 
 ### Post-launch Evidence & Real-world Outcomes
-Comparing clinical trials to RWE cohorts, and illustrating RWE survival benchmarks.
 ![RWE vs Trial](figures/rwe_vs_clinical_trial.png)
 ![RWE Survival Benchmarks](figures/rwe_survival_benchmarks.png)
 
 ---
 
-## 🔬 How to Run the Analyses
+## 🔬 Installation & Environment Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/cemiplimab.git
-    cd cemiplimab
-    ```
-2.  **Install dependencies:**
-    Ensure you have Python 3, Pandas, Matplotlib, and Seaborn installed.
-    ```bash
-    pip install pandas matplotlib seaborn jupyter
-    ```
-3.  **Run the notebooks:**
-    ```bash
-    jupyter notebook notebooks/01_clinical_efficacy.ipynb
-    jupyter notebook notebooks/02_regulatory_safety.ipynb
-    jupyter notebook biomarker/biomarker_analysis.ipynb
-    jupyter notebook IP/patent_timeline.ipynb
-    jupyter notebook commercial/commercial_analysis.ipynb
-    jupyter notebook financial/financial_analysis.ipynb
-    jupyter notebook post_launch/post_launch_analysis.ipynb
-    ```
+Ensure you have Python 3.10+ installed. You can install all dependencies via `pip` or setup a `conda` environment.
+
+### Pip Setup
+```bash
+pip install -r requirements.txt
+```
+
+### Conda Setup
+```bash
+conda env create -f environment.yml
+conda activate cemiplimab_research
+```
+
+### Running Notebooks
+You can run any Jupyter Notebook to reproduce the figures:
+```bash
+jupyter notebook notebooks/01_clinical_efficacy.ipynb
+jupyter notebook notebooks/02_regulatory_safety.ipynb
+jupyter notebook biomarker/biomarker_analysis.ipynb
+jupyter notebook IP/patent_timeline.ipynb
+jupyter notebook commercial/commercial_analysis.ipynb
+jupyter notebook financial/financial_analysis.ipynb
+jupyter notebook post_launch/post_launch_analysis.ipynb
+```
 
 ---
 
-## 📑 Core Principles
-This repository strictly operates under open-source data standards. No patient-level protected information is utilized. All conclusions are drawn from peer-reviewed clinical publications and regulatory documents (FDA, EMA).
+## 📑 Citation Instructions
+If you find this research repository or its data useful in your scientific work, please cite it as:
+```text
+Cemiplimab (Libtayo®) cSCC Research Repository, 2026. Available at: https://github.com/your-username/cemiplimab
+```
+All scientific statements are supported by primary publications cited in [references.md](file:///Users/sohith/Desktop/cemiplimab/references/references.md).
 
-For a detailed roadmap of this project, please consult the workspace task tracker [TASKS.md](file:///Users/sohith/Desktop/cemiplimab/TASKS.md).
+---
+
+## ⚖️ License
+This project is licensed under the terms of the **MIT License**. For details, please consult [LICENSE](file:///Users/sohith/Desktop/cemiplimab/LICENSE).
+
+---
+
+## 🤝 Acknowledgements
+We acknowledge the patients and clinical trial investigators of the EMPOWER-CSCC-1 and C-POST studies, as well as the researchers at Regeneron and Sanofi whose work is referenced in this repository.

@@ -95,10 +95,13 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
-## 🏃 Future Phases
-
-### Phase 8: Pharmacokinetics and Dosing Rationale
-- [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
-- [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
-- [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.
-- [ ] Document PK profile in `docs/03_pharmacokinetics.md`.
+## 🏁 Phase 8: Repository Finalization & Publication Readiness
+- [x] Create repository metadata files at root (`LICENSE`, `CONTRIBUTING.md`, `CHANGELOG.md`, `CODE_OF_CONDUCT.md`)
+- [x] Create environment configuration files at root (`requirements.txt`, `environment.yml`)
+- [x] Create reference catalogs in `references/` (`references.md`, `references.bib`, `data_sources.md`)
+- [x] Create documentation indices in `docs/` (`project_overview.md`, `data_dictionary.md`, `figure_index.md`, `glossary.md`)
+- [x] Create technical blog posts in `blog/` (Phases 1-7 articles)
+- [x] Create CI/CD workflow (`.github/workflows/verify_notebooks.yml`)
+- [x] Create project closeout summary (`PROJECT_SUMMARY.md`)
+- [x] Update `README.md` and `TASKS.md` to reflect project completion
+- [x] Verify all notebooks and figures are fully reproducible

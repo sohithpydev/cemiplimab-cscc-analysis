@@ -1,0 +1,54 @@
+name: Verify Notebooks and Reproducibility
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-node: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Verify Clinical Efficacy Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute notebooks/01_clinical_efficacy.ipynb
+
+    - name: Verify Regulatory Safety Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute notebooks/02_regulatory_safety.ipynb
+
+    - name: Verify Biomarker Analysis Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute biomarker/biomarker_analysis.ipynb
+
+    - name: Verify Patent Timeline Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute IP/patent_timeline.ipynb
+
+    - name: Verify Commercial Analysis Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute commercial/commercial_analysis.ipynb
+
+    - name: Verify Financial Analysis Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute financial/financial_analysis.ipynb
+
+    - name: Verify Post-launch Analysis Notebook
+      run: |
+        jupyter nbconvert --to notebook --execute post_launch/post_launch_analysis.ipynb
