@@ -1,0 +1,9 @@
+parameter,value,units,details,source
+Target,PD-1,Name,Programmed cell death protein 1 receptor,FDA Prescribing Info
+Antibody Class,IgG4,Class,Human monoclonal immunoglobulin G4,FDA Prescribing Info
+Binding Affinity (Kd),0.60,nM,Determined via Surface Plasmon Resonance (SPR),RCSB PDB ID: 6KZP
+Terminal Half-life (t1/2),20.3,days,Elimination half-life at steady state (range 20-22 days),FDA Prescribing Info
+Steady State Volume of Distribution (Vss),5.9,L,Apparent volume of distribution,FDA Prescribing Info
+Clearance (CL),0.25,L/day,Clearance at steady state (Q2W or Q3W dosing),FDA Prescribing Info
+Dosing - Advanced cSCC,350,mg,Fixed dose IV every 3 weeks (or 3 mg/kg Q2W),FDA Prescribing Info
+Dosing - Adjuvant cSCC,350,mg,Fixed dose IV every 3 weeks for up to 1 year,FDA Prescribing Info

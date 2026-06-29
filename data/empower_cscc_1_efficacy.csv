@@ -1,0 +1,5 @@
+cohort_id,disease_status,dosing_regimen,n_evaluable,orr_pct,cr_pct,pr_pct,median_pfs_months,median_dor_months
+Group 1,Metastatic cSCC,3 mg/kg Q2W,59,50.8,20.3,30.5,18.4,NaN
+Group 2,Locally Advanced cSCC,3 mg/kg Q2W,78,44.9,12.8,32.1,28.6,NaN
+Group 3,Metastatic cSCC,350 mg Q3W,56,46.4,16.1,30.3,26.0,NaN
+Combined Groups 1-3,Advanced cSCC,Pooled,193,47.2,16.1,31.1,26.0,NaN
