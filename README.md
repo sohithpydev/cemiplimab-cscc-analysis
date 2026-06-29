@@ -2,7 +2,7 @@
 
 Welcome to the open-source pharmaceutical intelligence and computational biology repository for **Cemiplimab (Libtayo®)** in the treatment of Cutaneous Squamous Cell Carcinoma (cSCC).
 
-This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, commercial positioning, and health economics to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
+This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, commercial positioning, health economics, and post-launch real-world evidence to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
 ---
 
@@ -66,6 +66,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   **Health Economics:** Cost-effective in partitioned survival models (lifetime horizon). US ICER is **$99,024 per QALY gained** vs. chemotherapy, and Italy ICUR is **€34,110/QALY**, both well within established WTP thresholds.
 *   See the [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) directory for detailed pricing databases and health economics models.
 
+### 10. Post-launch Evidence & Real-world Outcomes
+*   **Real-world Cohorts:** Large-scale registries (CASE, n=254; UK REACT-CEMI, n=105; US EHR Database, n=622) validate clinical trial efficacy, showing real-world ORR of **42% to 44%** and median overall survival of **21 to 25 months**.
+*   **Special Populations:** Reaffirms efficacy in patients $\ge$ 75 years and supports graft-sparing management in Solid Organ Transplant Recipients (SOTRs) facing a 30-40% allograft rejection risk.
+*   **Pharmacovigilance:** Disproportionality analysis of FAERS data identifies rare, serious post-market safety signals such as immune-mediated myocarditis and Stevens-Johnson Syndrome (SJS).
+*   **Future Pipelines:** High neoadjuvant pathologic complete response (pCR) rate of **50.6%** (Gross 2022 NEJM) shows promise in sparing patients from disfiguring surgeries, while the cemiplimab-fianlimab (anti-LAG-3) co-formulation targets PD-1 resistant cohorts.
+*   See the [post_launch/](file:///Users/sohith/Desktop/cemiplimab/post_launch) directory for RWE databases and pharmacovigilance reports.
+
 ---
 
 ## 📁 Repository Structure
@@ -74,19 +81,21 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
 *   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases and timeline notebook.
 *   📂 [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) — Commercial strategy, competitor datasets, and guidelines.
-*   📂 [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) — Pricing and revenue datasets, reimbursement details, health economics reviews, and currency normalization notebooks.
-    *   [financial_summary.csv](file:///Users/sohith/Desktop/cemiplimab/financial/financial_summary.csv)
-    *   [financial_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/financial/financial_analysis.ipynb)
-    *   [pricing_analysis.md](file:///Users/sohith/Desktop/cemiplimab/financial/pricing_analysis.md)
-    *   [market_size.md](file:///Users/sohith/Desktop/cemiplimab/financial/market_size.md)
-    *   [revenue_analysis.md](file:///Users/sohith/Desktop/cemiplimab/financial/revenue_analysis.md)
-    *   [reimbursement.md](file:///Users/sohith/Desktop/cemiplimab/financial/reimbursement.md)
-    *   [health_economics.md](file:///Users/sohith/Desktop/cemiplimab/financial/health_economics.md)
+*   📂 [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) — Pricing, revenue, and health economics models.
+*   📂 [post_launch/](file:///Users/sohith/Desktop/cemiplimab/post_launch) — Real-world evidence databases, safety registries, guideline updates, and future clinical directions.
+    *   [post_launch_summary.csv](file:///Users/sohith/Desktop/cemiplimab/post_launch/post_launch_summary.csv)
+    *   [post_launch_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/post_launch/post_launch_analysis.ipynb)
+    *   [real_world_evidence.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/real_world_evidence.md)
+    *   [long_term_safety.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/long_term_safety.md)
+    *   [pharmacovigilance.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/pharmacovigilance.md)
+    *   [adoption.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/adoption.md)
+    *   [guideline_updates.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/guideline_updates.md)
+    *   [future_directions.md](file:///Users/sohith/Desktop/cemiplimab/post_launch/future_directions.md)
 *   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
 *   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [financial_pricing_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/financial_pricing_comparison.png)
-    *   [financial_revenue_trend.png](file:///Users/sohith/Desktop/cemiplimab/figures/financial_revenue_trend.png)
+    *   [rwe_vs_clinical_trial.png](file:///Users/sohith/Desktop/cemiplimab/figures/rwe_vs_clinical_trial.png)
+    *   [rwe_survival_benchmarks.png](file:///Users/sohith/Desktop/cemiplimab/figures/rwe_survival_benchmarks.png)
 
 ---
 
@@ -109,9 +118,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 ![Efficacy Comparison](figures/commercial_efficacy_comparison.png)
 
 ### Financial Analysis & Market Economics
-Normalized cost per 350 mg vial in USD across major markets, and annual sales trends.
 ![Pricing Comparison](figures/financial_pricing_comparison.png)
 ![Revenue Trend](figures/financial_revenue_trend.png)
+
+### Post-launch Evidence & Real-world Outcomes
+Comparing clinical trials to RWE cohorts, and illustrating RWE survival benchmarks.
+![RWE vs Trial](figures/rwe_vs_clinical_trial.png)
+![RWE Survival Benchmarks](figures/rwe_survival_benchmarks.png)
 
 ---
 
@@ -135,6 +148,7 @@ Normalized cost per 350 mg vial in USD across major markets, and annual sales tr
     jupyter notebook IP/patent_timeline.ipynb
     jupyter notebook commercial/commercial_analysis.ipynb
     jupyter notebook financial/financial_analysis.ipynb
+    jupyter notebook post_launch/post_launch_analysis.ipynb
     ```
 
 ---

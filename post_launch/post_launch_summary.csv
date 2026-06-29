@@ -1,0 +1,5 @@
+study,country,sample_size,follow_up,orr,cr,pfs,os,safety_findings,reference
+CASE Study (Interim),US/EU,254,12 months,43.7,11.2,14.7,NR,"9.4% Grade 3-4 irAEs; well tolerated in elderly",ASCO 2021 Abstract 9533
+REACT-CEMI (UK Multicenter),United Kingdom,105,18 months,42.0,8.0,8.6,21.0,"Hypothyroidism in 11%; pneumonitis 3%",Frontiers in Oncology 2023
+US Real-World Database,United States,622,24 months,N/A,N/A,N/A,24.8,"Consistent with trial profile; poorer OS in ECOG >= 2",J. Clin. Oncol. 2022
+Siena Cohort,Italy,27,15 months,66.6,18.5,NR,NR,"Grade 3 colitis (n=1); fatigue",MDPI Cancers 2023

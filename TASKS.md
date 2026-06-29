@@ -80,9 +80,24 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
+## 🏁 Phase 7: Post-launch Evidence, Real-World Adoption & Long-term Outcomes
+- [x] Research real-world observational cohorts and registry data (CASE, REACT-CEMI, US Database)
+- [x] Compile long-term safety profile, late-onset toxicities, and discontinuation outcomes
+- [x] Research post-market pharmacovigilance reports (FAERS database) and regulatory label adjustments
+- [x] Compile global physician adoption, referral pathways, access barriers, and unmet needs
+- [x] Research guideline recommendations updates (NCCN, ESMO, EADO) over time
+- [x] Compile future combination trials (fianlimab), neoadjuvant trials (Gross 2022 NEJM), and biomarker-driven protocols
+- [x] Create structured RWE database (`post_launch/post_launch_summary.csv`)
+- [x] Create Jupyter Notebook `post_launch/post_launch_analysis.ipynb` to analyze and visualize data
+- [x] Write comprehensive documentation under `post_launch/` directory
+- [x] Update `README.md` and `TASKS.md` with Phase 7 deliverables
+- [x] Verify notebooks and output figures
+
+---
+
 ## 🏃 Future Phases
 
-### Phase 7: Pharmacokinetics and Dosing Rationale
+### Phase 8: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
 - [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
 - [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.
