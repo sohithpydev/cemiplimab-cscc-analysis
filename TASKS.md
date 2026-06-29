@@ -27,21 +27,29 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
+## 🏁 Phase 3: Biomarkers & Precision Medicine
+- [x] Research PD-L1 expression clinical utility and lack of predictive value in cSCC
+- [x] Compile Tumor Mutational Burden (TMB) data and UV-induced signatures (Signature 7)
+- [x] Research Tumor Immune Microenvironment (CD8+ T-cells, Tregs, TAMs, DCs, IFN-gamma pathway, MHC Class I)
+- [x] Compile emerging biomarkers (ctDNA, TCR clonality, GEPs) and mechanisms of primary/acquired resistance (B2M, JAK1/2)
+- [x] Create structured biomarker catalog (`biomarker/biomarker_summary.csv`)
+- [x] Create Jupyter Notebook `biomarker/biomarker_analysis.ipynb` to analyze and visualize data
+- [x] Write comprehensive scientific documentation under `biomarker/` directory
+- [x] Update `README.md` and `TASKS.md` with Phase 3 deliverables
+- [x] Verify notebooks and output figures
+
+---
+
 ## 🏃 Future Phases
 
-### Phase 3: Pharmacokinetics and Dosing Rationale
+### Phase 4: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
 - [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
 - [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.
 - [ ] Document PK profile in `docs/03_pharmacokinetics.md`.
 
-### Phase 4: Market Landscape, Approvals, and Patents
+### Phase 5: Market Landscape, Approvals, and Patents
 - [ ] Collect regulatory milestones (FDA, EMA approvals, priority reviews).
 - [ ] Compile patent landscape, expirations, and competitive analysis (vs Pembrolizumab, etc.).
 - [ ] Create market datasets (`data/cemiplimab_regulatory_market.csv`).
 - [ ] Document market intelligence report in `docs/04_market_and_regulatory.md`.
-
-### Phase 5: Bioinformatics and Genomic Biomarkers
-- [ ] Research Tumor Mutational Burden (TMB) and PD-L1 expression as predictive biomarkers for cemiplimab in cSCC.
-- [ ] Identify publicly available genomics datasets or clinical correlation data.
-- [ ] Write bioinformatics notebook (`notebooks/05_genomic_biomarkers.ipynb`) and document in `docs/05_genomic_markers.md`.

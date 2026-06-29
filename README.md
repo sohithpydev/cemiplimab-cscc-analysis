@@ -2,7 +2,7 @@
 
 Welcome to the open-source pharmaceutical intelligence and computational biology repository for **Cemiplimab (Libtayo®)** in the treatment of Cutaneous Squamous Cell Carcinoma (cSCC).
 
-This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, and safety data to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
+This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, and precision oncology biomarkers to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
 ---
 
@@ -25,7 +25,7 @@ This project integrates clinical oncology evidence, structural molecular biology
     *   12-Month Disease-Free Survival (DFS) rate of **92.4%** vs 69.5% for placebo.
     *   See [c_post_efficacy.csv](file:///Users/sohith/Desktop/cemiplimab/data/c_post_efficacy.csv) for comparison tables.
 
-### 3. Clinical Development & Subgroup Analysis
+### 3. Clinical Development & Subgroup Efficacy
 *   **Consistent Subgroup Efficacy:** Efficacy is maintained in elderly populations, which is vital given the demographics of skin cancer. ORR is **44.9%** in patients $\ge$ 75 years, compared to **53.0%** in patients 65–75, and **42.9%** in patients <65.
 *   **ECOG Status:** Efficacy remains high in both ECOG PS 0 (**48.4%**) and ECOG PS 1 (**46.1%**) patients.
 *   See [empower_cscc_1_subgroups.csv](file:///Users/sohith/Desktop/cemiplimab/data/empower_cscc_1_subgroups.csv) for complete subgroup data.
@@ -41,48 +41,43 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   **Regulatory Programs:** Leveraged FDA's breakthrough therapy status, priority review, and the Real-Time Oncology Review (RTOR) pilot program.
 *   See [cemiplimab_regulatory_history.csv](file:///Users/sohith/Desktop/cemiplimab/data/cemiplimab_regulatory_history.csv) for the timeline.
 
+### 6. Biomarkers & Precision Medicine
+*   **PD-L1 Status:** Clinically responses occur in both PD-L1-positive and PD-L1-negative tumors; it is not a mandatory selection biomarker.
+*   **Tumor Mutational Burden (TMB):** cSCC has one of the highest TMBs (~50 mut/Mb median) due to Signature 7 (UV radiation). High TMB correlates with clinical benefit, with responders showing higher median TMB (~53-61 mut/Mb) vs non-responders (~13-19 mut/Mb) in EMPOWER-CSCC-1.
+*   **Tumor Immune Microenvironment (TIME):** Active infiltration of CD8+ TILs and conventional dendritic cells (cDC1) alongside upregulated IFN-$\gamma$ signatures are key drivers of therapy success, whereas HLA Class I loss or JAK1/2 mutations drive acquired resistance.
+*   See the [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) directory for detailed biomarker datasets and markdown reports.
+
 ---
 
 ## 📁 Repository Structure
 
-*   📂 [data/](file:///Users/sohith/Desktop/cemiplimab/data) — Structured CSV files containing curated trial data.
-    *   [empower_cscc_1_efficacy.csv](file:///Users/sohith/Desktop/cemiplimab/data/empower_cscc_1_efficacy.csv)
-    *   [c_post_efficacy.csv](file:///Users/sohith/Desktop/cemiplimab/data/c_post_efficacy.csv)
-    *   [cemiplimab_pharmacology.csv](file:///Users/sohith/Desktop/cemiplimab/data/cemiplimab_pharmacology.csv)
-    *   [cemiplimab_regulatory_history.csv](file:///Users/sohith/Desktop/cemiplimab/data/cemiplimab_regulatory_history.csv)
-    *   [empower_cscc_1_subgroups.csv](file:///Users/sohith/Desktop/cemiplimab/data/empower_cscc_1_subgroups.csv)
-    *   [cemiplimab_safety_ae_profile.csv](file:///Users/sohith/Desktop/cemiplimab/data/cemiplimab_safety_ae_profile.csv)
-*   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Executable Jupyter Notebooks for analysis.
-    *   [01_clinical_efficacy.ipynb](file:///Users/sohith/Desktop/cemiplimab/notebooks/01_clinical_efficacy.ipynb) — Efficacy analysis and KM curves.
-    *   [02_regulatory_safety.ipynb](file:///Users/sohith/Desktop/cemiplimab/notebooks/02_regulatory_safety.ipynb) — Subgroups, safety, and timeline plots.
-*   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Scientific summaries.
-    *   [01_mechanism_and_efficacy.md](file:///Users/sohith/Desktop/cemiplimab/docs/01_mechanism_and_efficacy.md) — MoA and clinical trial review.
-    *   [02_regulatory_and_safety.md](file:///Users/sohith/Desktop/cemiplimab/docs/02_regulatory_and_safety.md) — Subgroup efficacy, AEs, and regulatory details.
+*   📂 [data/](file:///Users/sohith/Desktop/cemiplimab/data) — Curated clinical and pharmacological datasets.
+*   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
+    *   [biomarker_summary.csv](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_summary.csv)
+    *   [biomarker_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_analysis.ipynb)
+    *   [pd_l1.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/pd_l1.md)
+    *   [tumor_mutation_burden.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/tumor_mutation_burden.md)
+    *   [immune_microenvironment.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/immune_microenvironment.md)
+    *   [predictive_biomarkers.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/predictive_biomarkers.md)
+    *   [biomarker_limitations.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_limitations.md)
+*   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
+*   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [empower_cscc_1_efficacy.png](file:///Users/sohith/Desktop/cemiplimab/figures/empower_cscc_1_efficacy.png)
-    *   [c_post_dfs_efficacy.png](file:///Users/sohith/Desktop/cemiplimab/figures/c_post_dfs_efficacy.png)
-    *   [c_post_hazard_ratio.png](file:///Users/sohith/Desktop/cemiplimab/figures/c_post_hazard_ratio.png)
-    *   [cemiplimab_regulatory_timeline.png](file:///Users/sohith/Desktop/cemiplimab/figures/cemiplimab_regulatory_timeline.png)
-    *   [empower_subgroups_efficacy.png](file:///Users/sohith/Desktop/cemiplimab/figures/empower_subgroups_efficacy.png)
-    *   [cemiplimab_safety_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/cemiplimab_safety_comparison.png)
+    *   [biomarker_comparison_heatmap.png](file:///Users/sohith/Desktop/cemiplimab/figures/biomarker_comparison_heatmap.png)
+    *   [biomarker_tmb_distribution.png](file:///Users/sohith/Desktop/cemiplimab/figures/biomarker_tmb_distribution.png)
 
 ---
 
 ## 📈 Visualizations Showcase
 
-### EMPOWER-CSCC-1 Response Rates & Subgroups
+### Clinical Efficacy & Safety Profile
 ![EMPOWER-CSCC-1 Efficacy](figures/empower_cscc_1_efficacy.png)
-![EMPOWER-CSCC-1 Subgroups](figures/empower_subgroups_efficacy.png)
-
-### C-POST Adjuvant DFS Rates & Hazard Ratio
-![C-POST DFS](figures/c_post_dfs_efficacy.png)
-![C-POST Hazard Ratio](figures/c_post_hazard_ratio.png)
-
-### C-POST Adjuvant Safety Profile (vs Placebo)
 ![C-POST Safety](figures/cemiplimab_safety_comparison.png)
 
-### Indication Approval Evolution Timeline
-![Regulatory Timeline](figures/cemiplimab_regulatory_timeline.png)
+### Biomarkers & Precision Medicine
+Grouped boxplot showing higher pre-treatment TMB in responders vs non-responders, and a utility heatmap of different markers.
+![Biomarker TMB Distribution](figures/biomarker_tmb_distribution.png)
+![Biomarker Heatmap](figures/biomarker_comparison_heatmap.png)
 
 ---
 
@@ -102,6 +97,7 @@ This project integrates clinical oncology evidence, structural molecular biology
     ```bash
     jupyter notebook notebooks/01_clinical_efficacy.ipynb
     jupyter notebook notebooks/02_regulatory_safety.ipynb
+    jupyter notebook biomarker/biomarker_analysis.ipynb
     ```
 
 ---
