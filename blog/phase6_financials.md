@@ -21,6 +21,9 @@ Following the Sanofi transaction, Regeneron records 100% of global product sales
 *   **2024 Revenue:** Global net sales of **$1,217.0 million USD**.
 *   **YoY Growth:** A **40.1% growth rate**, driven by expanding uptake and label expansions.
 
+![Geographic List Pricing Comparison (USD Normalized)](../figures/financial_pricing_comparison.png)
+![Libtayo Annual Net Sales Revenue (2023 vs 2024)](../figures/financial_revenue_trend.png)
+
 ---
 
 ## 3. Health Economics: Cost-Effectiveness

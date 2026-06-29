@@ -24,6 +24,9 @@ Analyzing post-marketing databases like FAERS helps detect rare, severe safety s
 *   **Cemiplimab + Fianlimab (Anti-LAG-3):** Co-formulating cemiplimab with an anti-LAG-3 antibody seeks to overcome PD-1 resistance by blocking dual inhibitory pathways.
 *   **Neoadjuvant Breakthrough (Gross 2022 NEJM):** Evaluating neoadjuvant cemiplimab prior to surgery in Stage II–IV resectable cSCC resulted in a **50.6% pathologic Complete Response (pCR)** and a **12.7% Major Pathologic Response (MPR)**. Sparing patients from disfiguring surgeries represents a major advance.
 
+![Efficacy Comparison: Clinical Trial vs. Real-World Outcomes](../figures/rwe_vs_clinical_trial.png)
+![Real-World Survival Benchmarks for Cemiplimab in cSCC](../figures/rwe_survival_benchmarks.png)
+
 ---
 
 ## Conclusion

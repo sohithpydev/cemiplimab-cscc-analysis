@@ -24,6 +24,8 @@ The pivotal Phase 2 trial evaluated cemiplimab across three advanced cSCC cohort
 *   **Locally Advanced Cohort (350 mg fixed Q3W):** Achieved an ORR of **44.9%**.
 *   **Pooled Outcomes:** Across all 193 patients, the pooled ORR was **47.2%**, with a Complete Response (CR) rate of **16.1%** and a median Progression-Free Survival (PFS) of **26.0 months**.
 
+![EMPOWER-CSCC-1 Trial Efficacy](../figures/empower_cscc_1_efficacy.png)
+
 ### 2.2 Adjuvant Setting: C-POST (NCT03969004)
 The randomized Phase 3 trial evaluated adjuvant cemiplimab vs. placebo in patients with high-risk resected cSCC:
 *   **Disease-Free Survival (DFS):** Adjuvant cemiplimab reduced the risk of recurrence or death by **68%** (Hazard Ratio = **0.32** [95% CI: 0.20 - 0.51], $P < 0.0001$).

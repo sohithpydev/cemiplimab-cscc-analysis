@@ -17,6 +17,9 @@ Securing clinical data is only half the battle; successfully commercializing a d
     *   **Higher Complete Response (CR) Rate:** Achieved a **16.1%** pooled CR rate in trials compared to pembrolizumab's ~6% CR rate.
     *   **Efficacy in Locally Advanced disease:** Cemiplimab showed robust responses in locally advanced cases, whereas competitor data focused heavily on metastatic patients.
 
+![Cemiplimab Global Revenue Growth Trajectory (2020-2024)](../figures/commercial_revenue_growth.png)
+![Efficacy Comparison: Cemiplimab vs. Chemotherapy & EGFR Inhibitors](../figures/commercial_efficacy_comparison.png)
+
 ---
 
 ## 3. Treatment Guidelines Integration

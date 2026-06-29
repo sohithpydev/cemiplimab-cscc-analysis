@@ -11,6 +11,8 @@ Cemiplimab exhibits a safety profile characteristic of anti-PD-1 monoclonal anti
 *   **Severe Toxicities:** Grade 3–4 fatigue occurred in **1.2%** of cemiplimab patients (vs. **0.5%** in placebo).
 *   **Immune-Related AEs (irAEs):** Hypothyroidism occurred in **10.0%** of patients in the adjuvant setting, reflecting the thyroid gland’s vulnerability to immune activation.
 
+![Cemiplimab Adjuvant Safety Profile](../figures/cemiplimab_safety_comparison.png)
+
 ---
 
 ## 2. Consistency of Subgroup Efficacy

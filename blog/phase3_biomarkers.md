@@ -17,6 +17,9 @@ In many solid tumors (such as NSCLC), PD-1 inhibitors are restricted to patients
 *   **UV Signature:** This high TMB is driven by exposure to ultraviolet (UV) radiation, which creates a distinct **Signature 7 mutation pattern** (C>T transitions at dipyrimidine sites).
 *   **Correlation with Response:** High TMB correlates with clinical benefit. In EMPOWER-CSCC-1, responders exhibited a median TMB of **53–61 mut/Mb**, compared to **13–19 mut/Mb** in non-responders. High TMB leads to a high density of novel neoantigens, rendering the tumor highly immunogenic.
 
+![Tumor Mutation Burden Distribution in Responders vs. Non-responders](../figures/biomarker_tmb_distribution.png)
+![Biomarker Comparisons across Response Categories](../figures/biomarker_comparison_heatmap.png)
+
 ---
 
 ## 3. Mechanisms of Primary and Acquired Resistance

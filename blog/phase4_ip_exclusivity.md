@@ -12,6 +12,9 @@ Regeneron’s patent strategy for cemiplimab leverages a layered portfolio:
 *   **Formulation Patents:** Protects stable liquid formulations. Expirations extend to **2038**.
 *   **Parallel Global Coverage:** Similar patent filings in Europe and Japan provide protection through 2035–2038, creating a significant barrier to generic competitors.
 
+![Cemiplimab Patent & Regulatory Exclusivity Timeline](../figures/patent_exclusivity_timeline.png)
+![Patent Comparison by Jurisdiction (US, EP, JP)](../figures/patent_jurisdiction_comparison.png)
+
 ---
 
 ## 2. Regulatory Data Exclusivity
