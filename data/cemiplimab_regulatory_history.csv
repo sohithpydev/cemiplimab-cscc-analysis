@@ -1,0 +1,10 @@
+indication,agency,approval_date,clinical_setting,details
+Advanced cSCC,FDA,2018-09-28,First-line systemic,Approved for metastatic or locally advanced cSCC not candidates for surgery or radiation
+Advanced cSCC,EMA,2019-06-28,First-line systemic,Approved for metastatic or locally advanced cSCC not candidates for surgery or radiation
+Advanced BCC,FDA,2021-02-09,Second-line systemic,Approved for patients previously treated with HPI or for whom HPI is not appropriate
+Advanced NSCLC,FDA,2021-02-22,First-line monotherapy,Approved for patients with TPS >= 50% and no EGFR/ALK/ROS1 aberrations
+Advanced NSCLC,EMA,2021-06-22,First-line monotherapy,Approved for patients with TPS >= 50% and no EGFR/ALK/ROS1 aberrations
+Advanced BCC,EMA,2021-06-28,Second-line systemic,Approved for patients previously treated with HPI or for whom HPI is not appropriate
+Advanced NSCLC,FDA,2022-11-08,First-line combination,Approved in combination with platinum-based chemotherapy regardless of PD-L1 level
+Adjuvant cSCC,FDA,2025-10-08,Adjuvant,Approved for high-risk cSCC patients following surgery and radiation therapy
+Adjuvant cSCC,EMA,2025-11-15,Adjuvant,Approved for high-risk cSCC patients following surgery and radiation therapy

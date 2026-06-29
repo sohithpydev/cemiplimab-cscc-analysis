@@ -1,0 +1,22 @@
+adverse_event,trial_context,all_grades_pct,grade_3_4_pct,details
+Fatigue,Advanced cSCC (EMPOWER-CSCC-1),29.0,2.0,General feeling of tiredness or weakness
+Fatigue,Adjuvant cSCC (C-POST Cemiplimab),31.0,1.2,Fatigue reported in the adjuvant cemiplimab arm
+Fatigue,Adjuvant cSCC (C-POST Placebo),26.0,0.5,Fatigue reported in the adjuvant placebo arm
+Rash,Advanced cSCC (EMPOWER-CSCC-1),25.0,1.2,"Includes rash, maculopapular rash, dermatitis"
+Rash,Adjuvant cSCC (C-POST Cemiplimab),22.0,0.8,Rash reported in the adjuvant cemiplimab arm
+Rash,Adjuvant cSCC (C-POST Placebo),12.0,0.0,Rash reported in the adjuvant placebo arm
+Diarrhea,Advanced cSCC (EMPOWER-CSCC-1),22.0,0.6,Gastrointestinal adverse event
+Diarrhea,Adjuvant cSCC (C-POST Cemiplimab),18.0,0.5,Diarrhea reported in the adjuvant cemiplimab arm
+Diarrhea,Adjuvant cSCC (C-POST Placebo),10.0,0.0,Diarrhea reported in the adjuvant placebo arm
+Pruritus,Advanced cSCC (EMPOWER-CSCC-1),22.0,0.0,Skin itching
+Pruritus,Adjuvant cSCC (C-POST Cemiplimab),24.0,0.0,Itching reported in the adjuvant cemiplimab arm
+Pruritus,Adjuvant cSCC (C-POST Placebo),14.0,0.0,Itching reported in the adjuvant placebo arm
+Nausea,Advanced cSCC (EMPOWER-CSCC-1),20.0,0.6,Gastrointestinal adverse event
+Nausea,Adjuvant cSCC (C-POST Cemiplimab),15.0,0.0,Nausea reported in the adjuvant cemiplimab arm
+Nausea,Adjuvant cSCC (C-POST Placebo),11.0,0.0,Nausea reported in the adjuvant placebo arm
+Musculoskeletal pain,Advanced cSCC (EMPOWER-CSCC-1),24.0,1.0,"Includes back pain, arthralgia, myalgia"
+Musculoskeletal pain,Adjuvant cSCC (C-POST Cemiplimab),20.0,0.9,Musculoskeletal pain in the adjuvant cemiplimab arm
+Musculoskeletal pain,Adjuvant cSCC (C-POST Placebo),15.0,0.5,Musculoskeletal pain in the adjuvant placebo arm
+Hypothyroidism,Advanced cSCC (EMPOWER-CSCC-1),8.0,0.2,"Most common immune-related adverse event (irAE)"
+Hypothyroidism,Adjuvant cSCC (C-POST Cemiplimab),10.0,0.1,Adjuvant cemiplimab arm thyroid dysfunction
+Hypothyroidism,Adjuvant cSCC (C-POST Placebo),1.5,0.0,Adjuvant placebo arm thyroid dysfunction

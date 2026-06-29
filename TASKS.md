@@ -14,13 +14,20 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
-## 🏃 Future Phases
+## 🏁 Phase 2: Clinical Development & Regulatory Affairs
+- [x] Research FDA and EMA approval histories, label evolution, and RTOR pilot program
+- [x] Compile subgroup efficacy data (age, disease status, ECOG performance status)
+- [x] Compile safety profile data (TEAEs, Grade 3-4 adverse events, irAEs, discontinuation rates)
+- [x] Create clinical and regulatory history datasets (CSVs) in `data/`
+- [x] Create Jupyter Notebook `notebooks/02_regulatory_safety.ipynb` to analyze and visualize data
+- [x] Write detailed scientific documentation in `docs/02_regulatory_and_safety.md`
+- [x] Update `README.md` with Phase 2 summary and link to documentation
+- [x] Update `TASKS.md` in the workspace root
+- [x] Verify notebooks and output figures
 
-### Phase 2: Safety Profile and Adverse Events (AEs)
-- [ ] Research immune-related adverse events (irAEs) associated with cemiplimab.
-- [ ] Compile data on common and severe AEs (Grade 3-4) from EMPOWER-CSCC-1 and C-POST.
-- [ ] Create safety datasets (`data/cemiplimab_safety_profile.csv`).
-- [ ] Write safety analysis notebook (`notebooks/02_safety_analysis.ipynb`) and document in `docs/02_safety_and_tolerability.md`.
+---
+
+## 🏃 Future Phases
 
 ### Phase 3: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).

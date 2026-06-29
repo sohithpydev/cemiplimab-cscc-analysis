@@ -1,0 +1,8 @@
+subgroup_type,category,n_evaluable,orr_pct,cr_pct,pr_pct
+Age,Under 65 years,49,42.9,14.3,28.6
+Age,65 to under 75 years,66,53.0,18.2,34.8
+Age,75 years and older,78,44.9,15.4,29.5
+Disease Setting,Metastatic cSCC,115,48.7,18.3,30.4
+Disease Setting,Locally Advanced cSCC,78,44.9,12.8,32.1
+Baseline ECOG PS,0,91,48.4,17.6,30.8
+Baseline ECOG PS,1,102,46.1,14.7,31.4
