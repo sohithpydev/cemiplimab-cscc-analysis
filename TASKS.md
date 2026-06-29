@@ -40,16 +40,23 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
+## 🏁 Phase 4: Intellectual Property & Exclusivity
+- [x] Research patents covering cemiplimab, including composition-of-matter, method-of-use, and formulation patents
+- [x] Compile regulatory exclusivity data under BPCIA (12 years) and EMA (10 years)
+- [x] Compile commercial licensing details (Regeneron-Sanofi 2022 restructuring and buyout terms)
+- [x] Research biosimilar landscape, pipeline development status, and technical/manufacturing barriers
+- [x] Create structured patent database (`IP/patent_summary.csv`)
+- [x] Create Jupyter Notebook `IP/patent_timeline.ipynb` to analyze and visualize timelines
+- [x] Write comprehensive documentation under `IP/` directory
+- [x] Update `README.md` and `TASKS.md` with Phase 4 deliverables
+- [x] Verify notebooks and output figures
+
+---
+
 ## 🏃 Future Phases
 
-### Phase 4: Pharmacokinetics and Dosing Rationale
+### Phase 5: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
 - [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
 - [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.
 - [ ] Document PK profile in `docs/03_pharmacokinetics.md`.
-
-### Phase 5: Market Landscape, Approvals, and Patents
-- [ ] Collect regulatory milestones (FDA, EMA approvals, priority reviews).
-- [ ] Compile patent landscape, expirations, and competitive analysis (vs Pembrolizumab, etc.).
-- [ ] Create market datasets (`data/cemiplimab_regulatory_market.csv`).
-- [ ] Document market intelligence report in `docs/04_market_and_regulatory.md`.

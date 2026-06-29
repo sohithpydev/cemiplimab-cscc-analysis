@@ -2,7 +2,7 @@
 
 Welcome to the open-source pharmaceutical intelligence and computational biology repository for **Cemiplimab (Libtayo®)** in the treatment of Cutaneous Squamous Cell Carcinoma (cSCC).
 
-This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, and precision oncology biomarkers to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
+This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, and intellectual property landscapes to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
 ---
 
@@ -47,24 +47,31 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   **Tumor Immune Microenvironment (TIME):** Active infiltration of CD8+ TILs and conventional dendritic cells (cDC1) alongside upregulated IFN-$\gamma$ signatures are key drivers of therapy success, whereas HLA Class I loss or JAK1/2 mutations drive acquired resistance.
 *   See the [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) directory for detailed biomarker datasets and markdown reports.
 
+### 7. Intellectual Property & Exclusivity
+*   **Licensing & restructurings:** In 2022, Regeneron bought out Sanofi's global stake for $900 million upfront, paying an 11% global sales royalty.
+*   **Patent Landscape:** Key US patents cover antibody composition (expirations in 2035), method-of-use (2037), and formulations (2038). Parallel coverage exists in the EU and Japan.
+*   **Regulatory Exclusivity:** Baseline regulatory protection runs to 2030 in the US (BPCIA 12 years) and 2029 in the EU (EMA 10 years).
+*   **Biosimilars:** No biosimilars are currently in active clinical development or approved for cemiplimab.
+*   See the [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) directory for patent databases and licensing reports.
+
 ---
 
 ## 📁 Repository Structure
 
 *   📂 [data/](file:///Users/sohith/Desktop/cemiplimab/data) — Curated clinical and pharmacological datasets.
 *   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
-    *   [biomarker_summary.csv](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_summary.csv)
-    *   [biomarker_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_analysis.ipynb)
-    *   [pd_l1.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/pd_l1.md)
-    *   [tumor_mutation_burden.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/tumor_mutation_burden.md)
-    *   [immune_microenvironment.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/immune_microenvironment.md)
-    *   [predictive_biomarkers.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/predictive_biomarkers.md)
-    *   [biomarker_limitations.md](file:///Users/sohith/Desktop/cemiplimab/biomarker/biomarker_limitations.md)
+*   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases, licensing reports, and timeline notebook.
+    *   [patent_summary.csv](file:///Users/sohith/Desktop/cemiplimab/IP/patent_summary.csv)
+    *   [patent_timeline.ipynb](file:///Users/sohith/Desktop/cemiplimab/IP/patent_timeline.ipynb)
+    *   [patent_overview.md](file:///Users/sohith/Desktop/cemiplimab/IP/patent_overview.md)
+    *   [patent_landscape.md](file:///Users/sohith/Desktop/cemiplimab/IP/patent_landscape.md)
+    *   [exclusivity.md](file:///Users/sohith/Desktop/cemiplimab/IP/exclusivity.md)
+    *   [biosimilar_landscape.md](file:///Users/sohith/Desktop/cemiplimab/IP/biosimilar_landscape.md)
 *   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
 *   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [biomarker_comparison_heatmap.png](file:///Users/sohith/Desktop/cemiplimab/figures/biomarker_comparison_heatmap.png)
-    *   [biomarker_tmb_distribution.png](file:///Users/sohith/Desktop/cemiplimab/figures/biomarker_tmb_distribution.png)
+    *   [patent_exclusivity_timeline.png](file:///Users/sohith/Desktop/cemiplimab/figures/patent_exclusivity_timeline.png)
+    *   [patent_jurisdiction_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/patent_jurisdiction_comparison.png)
 
 ---
 
@@ -75,9 +82,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 ![C-POST Safety](figures/cemiplimab_safety_comparison.png)
 
 ### Biomarkers & Precision Medicine
-Grouped boxplot showing higher pre-treatment TMB in responders vs non-responders, and a utility heatmap of different markers.
 ![Biomarker TMB Distribution](figures/biomarker_tmb_distribution.png)
 ![Biomarker Heatmap](figures/biomarker_comparison_heatmap.png)
+
+### Intellectual Property & Exclusivity
+Gantt timeline illustrating regulatory data exclusivity vs patent protection terms, and geographic patent category counts.
+![Exclusivity Timeline](figures/patent_exclusivity_timeline.png)
+![Patent Comparison](figures/patent_jurisdiction_comparison.png)
 
 ---
 
@@ -98,6 +109,7 @@ Grouped boxplot showing higher pre-treatment TMB in responders vs non-responders
     jupyter notebook notebooks/01_clinical_efficacy.ipynb
     jupyter notebook notebooks/02_regulatory_safety.ipynb
     jupyter notebook biomarker/biomarker_analysis.ipynb
+    jupyter notebook IP/patent_timeline.ipynb
     ```
 
 ---
