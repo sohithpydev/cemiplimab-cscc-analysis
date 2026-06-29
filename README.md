@@ -4,7 +4,7 @@ Welcome to the open-source pharmaceutical intelligence and computational biology
 
 This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, commercial positioning, health economics, and post-launch real-world evidence to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
-Developed by me, [Sohith Reddy](https://sohithpydev.github.io/sohith//) aka Harry, currently a Lab Associate at [SCS Lab, Chang Gung University, Taiwan](https://scs03596.wixsite.com/scslab), under the supervision of [Dr. Sukanth Khurana](https://www.linkedin.com/in/sukant-khurana/), CEO & Founder @ IonCure & Affiliate Faculty @ University of Colorado Colorado Springs, USA.
+Developed by me, [Sohith Reddy](https://sohithpydev.github.io/sohith/), aka Harry, currently a **Hybrid Lab Associate** at the [SCS Lab, Chang Gung University, Taiwan](https://scs03596.wixsite.com/scslab). I previously served as a **Part-Time Remote Research Assistant** at the University of Colorado Colorado Springs (UCCS), USA, under the supervision of [Dr. Sukanth Khurana](https://www.linkedin.com/in/sukant-khurana/), CEO & Founder of IonCure and Affiliate Faculty at UCCS.
 
 ---
 
