@@ -66,9 +66,23 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
+## 🏁 Phase 6: Financial Analysis & Market Economics
+- [x] Research pricing of cemiplimab across major global markets (US, UK, Australia, Japan)
+- [x] Compile annual and quarterly global revenue (including growth and franchise contribution)
+- [x] Compile epidemiology and eligible advanced cSCC population estimates
+- [x] Research reimbursement decisions and criteria from HTA agencies (NICE, CADTH, PBAC)
+- [x] Compile health economics evaluations, partitioned survival models, utility scores, and ICERs
+- [x] Create structured financial database (`financial/financial_summary.csv`)
+- [x] Create Jupyter Notebook `financial/financial_analysis.ipynb` to analyze and visualize data
+- [x] Write comprehensive documentation under `financial/` directory
+- [x] Update `README.md` and `TASKS.md` with Phase 6 deliverables
+- [x] Verify notebooks and output figures
+
+---
+
 ## 🏃 Future Phases
 
-### Phase 6: Pharmacokinetics and Dosing Rationale
+### Phase 7: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
 - [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
 - [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.

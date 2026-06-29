@@ -2,7 +2,7 @@
 
 Welcome to the open-source pharmaceutical intelligence and computational biology repository for **Cemiplimab (Libtayo®)** in the treatment of Cutaneous Squamous Cell Carcinoma (cSCC).
 
-This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, and commercial market dynamics to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
+This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, commercial positioning, and health economics to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
 ---
 
@@ -60,6 +60,12 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   **Guidelines Recommendations:** Listed as a preferred first-line systemic treatment (Category 2A preferred) in NCCN and ESMO clinical practice guidelines.
 *   See the [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) directory for commercial summaries and competitor datasets.
 
+### 9. Financial Analysis & Market Economics
+*   **Geographic Pricing:** US Wholesale Acquisition Cost (WAC) is **$11,703.03** per 350 mg vial. UK List price is **£4,650**, Australia PBS dispensed price is **$7,381.23 AUD**, and Japan NHI price is **450,437 JPY**. A 1-year adjuvant course (17 cycles) list price varies from $51k (Japan) to $198k (US WAC).
+*   **Reimbursement Status:** Reimbursed globally under single-payer systems (NICE routine NHS commissioning, Australia PBS S100, Canada CADTH) with clinical criteria restricting use to patients ineligible for surgery/radiation.
+*   **Health Economics:** Cost-effective in partitioned survival models (lifetime horizon). US ICER is **$99,024 per QALY gained** vs. chemotherapy, and Italy ICUR is **€34,110/QALY**, both well within established WTP thresholds.
+*   See the [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) directory for detailed pricing databases and health economics models.
+
 ---
 
 ## 📁 Repository Structure
@@ -67,19 +73,20 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   📂 [data/](file:///Users/sohith/Desktop/cemiplimab/data) — Curated clinical and pharmacological datasets.
 *   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
 *   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases and timeline notebook.
-*   📂 [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) — Commercial strategy, competitor datasets, treatment guidelines, and revenue plots.
-    *   [commercial_summary.csv](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_summary.csv)
-    *   [commercial_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_analysis.ipynb)
-    *   [commercial_strategy.md](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_strategy.md)
-    *   [competitive_landscape.md](file:///Users/sohith/Desktop/cemiplimab/commercial/competitive_landscape.md)
-    *   [branding_and_positioning.md](file:///Users/sohith/Desktop/cemiplimab/commercial/branding_and_positioning.md)
-    *   [treatment_guidelines.md](file:///Users/sohith/Desktop/cemiplimab/commercial/treatment_guidelines.md)
-    *   [kols.md](file:///Users/sohith/Desktop/cemiplimab/commercial/kols.md)
+*   📂 [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) — Commercial strategy, competitor datasets, and guidelines.
+*   📂 [financial/](file:///Users/sohith/Desktop/cemiplimab/financial) — Pricing and revenue datasets, reimbursement details, health economics reviews, and currency normalization notebooks.
+    *   [financial_summary.csv](file:///Users/sohith/Desktop/cemiplimab/financial/financial_summary.csv)
+    *   [financial_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/financial/financial_analysis.ipynb)
+    *   [pricing_analysis.md](file:///Users/sohith/Desktop/cemiplimab/financial/pricing_analysis.md)
+    *   [market_size.md](file:///Users/sohith/Desktop/cemiplimab/financial/market_size.md)
+    *   [revenue_analysis.md](file:///Users/sohith/Desktop/cemiplimab/financial/revenue_analysis.md)
+    *   [reimbursement.md](file:///Users/sohith/Desktop/cemiplimab/financial/reimbursement.md)
+    *   [health_economics.md](file:///Users/sohith/Desktop/cemiplimab/financial/health_economics.md)
 *   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
 *   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [commercial_revenue_growth.png](file:///Users/sohith/Desktop/cemiplimab/figures/commercial_revenue_growth.png)
-    *   [commercial_efficacy_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/commercial_efficacy_comparison.png)
+    *   [financial_pricing_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/financial_pricing_comparison.png)
+    *   [financial_revenue_trend.png](file:///Users/sohith/Desktop/cemiplimab/figures/financial_revenue_trend.png)
 
 ---
 
@@ -98,9 +105,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 ![Patent Comparison](figures/patent_jurisdiction_comparison.png)
 
 ### Commercial Landscape & Market Positioning
-Libtayo's global product sales growth (2023 vs 2024) and competitive response rate comparison.
 ![Revenue Growth](figures/commercial_revenue_growth.png)
 ![Efficacy Comparison](figures/commercial_efficacy_comparison.png)
+
+### Financial Analysis & Market Economics
+Normalized cost per 350 mg vial in USD across major markets, and annual sales trends.
+![Pricing Comparison](figures/financial_pricing_comparison.png)
+![Revenue Trend](figures/financial_revenue_trend.png)
 
 ---
 
@@ -123,6 +134,7 @@ Libtayo's global product sales growth (2023 vs 2024) and competitive response ra
     jupyter notebook biomarker/biomarker_analysis.ipynb
     jupyter notebook IP/patent_timeline.ipynb
     jupyter notebook commercial/commercial_analysis.ipynb
+    jupyter notebook financial/financial_analysis.ipynb
     ```
 
 ---

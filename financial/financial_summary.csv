@@ -1,0 +1,8 @@
+parameter_type,region,metric,value,currency,fiscal_year,reimbursement_status,health_economics_outcomes,public_source
+Pricing,United States,WAC price per 350 mg vial,11703.03,USD,2026,Reimbursed (Medicare/Private),ICER: $99024/QALY vs Chemotherapy,Regeneron WAC List Price
+Pricing,United Kingdom,List price per 350 mg vial,4650.00,GBP,2025,Reimbursed (NHS with confidential discount),Cost-effective under end-of-life criteria,NICE guidance TA578
+Pricing,Australia,Dispensed price per 350 mg vial,7381.23,AUD,2026,Reimbursed (PBS Section 100),Cost-minimised vs Pembrolizumab,PBS Schedule
+Pricing,Japan,NHI price per 350 mg vial,450437.00,JPY,2023,Reimbursed (NHI),Approved and listed,NHI Price List
+Revenue,Global,Annual product sales,1217.00,Millions USD,2024,N/A,N/A,Regeneron 10-K (2024)
+Revenue,Global,Annual product sales,868.80,Millions USD,2023,N/A,N/A,Regeneron 10-K (2024)
+Market Size,United States,Advanced cSCC annual incidence,30000.00,Patients (Est.),2025,N/A,N/A,Literature estimates
