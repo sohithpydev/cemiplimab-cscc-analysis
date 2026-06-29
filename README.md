@@ -2,7 +2,7 @@
 
 Welcome to the open-source pharmaceutical intelligence and computational biology repository for **Cemiplimab (Libtayo®)** in the treatment of Cutaneous Squamous Cell Carcinoma (cSCC).
 
-This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, and intellectual property landscapes to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
+This project integrates clinical oncology evidence, structural molecular biology, pharmacology, regulatory history, precision oncology biomarkers, intellectual property landscapes, and commercial market dynamics to provide a publication-quality analysis of cemiplimab. All data and figures are generated programmatically and are fully reproducible.
 
 ---
 
@@ -54,24 +54,32 @@ This project integrates clinical oncology evidence, structural molecular biology
 *   **Biosimilars:** No biosimilars are currently in active clinical development or approved for cemiplimab.
 *   See the [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) directory for patent databases and licensing reports.
 
+### 8. Commercial Landscape & Market Positioning
+*   **Commercial Performance:** Global net sales of Libtayo reached **$868.8 million** in 2023 and **$1.217 billion** in 2024 (a **40.1% year-on-year growth**), following Regeneron's buyout of global commercialization rights.
+*   **Competitive Landscape:** Outperforms traditional chemotherapies (ORR 30-50%, short PFS) and EGFR inhibitors (ORR 28%, severe rash). Offers higher Complete Response rates (16.1% CR) compared to pembrolizumab (~6% CR).
+*   **Guidelines Recommendations:** Listed as a preferred first-line systemic treatment (Category 2A preferred) in NCCN and ESMO clinical practice guidelines.
+*   See the [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) directory for commercial summaries and competitor datasets.
+
 ---
 
 ## 📁 Repository Structure
 
 *   📂 [data/](file:///Users/sohith/Desktop/cemiplimab/data) — Curated clinical and pharmacological datasets.
 *   📂 [biomarker/](file:///Users/sohith/Desktop/cemiplimab/biomarker) — Biomarker reports, dataset, and notebook.
-*   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases, licensing reports, and timeline notebook.
-    *   [patent_summary.csv](file:///Users/sohith/Desktop/cemiplimab/IP/patent_summary.csv)
-    *   [patent_timeline.ipynb](file:///Users/sohith/Desktop/cemiplimab/IP/patent_timeline.ipynb)
-    *   [patent_overview.md](file:///Users/sohith/Desktop/cemiplimab/IP/patent_overview.md)
-    *   [patent_landscape.md](file:///Users/sohith/Desktop/cemiplimab/IP/patent_landscape.md)
-    *   [exclusivity.md](file:///Users/sohith/Desktop/cemiplimab/IP/exclusivity.md)
-    *   [biosimilar_landscape.md](file:///Users/sohith/Desktop/cemiplimab/IP/biosimilar_landscape.md)
+*   📂 [IP/](file:///Users/sohith/Desktop/cemiplimab/IP) — Patent databases and timeline notebook.
+*   📂 [commercial/](file:///Users/sohith/Desktop/cemiplimab/commercial) — Commercial strategy, competitor datasets, treatment guidelines, and revenue plots.
+    *   [commercial_summary.csv](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_summary.csv)
+    *   [commercial_analysis.ipynb](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_analysis.ipynb)
+    *   [commercial_strategy.md](file:///Users/sohith/Desktop/cemiplimab/commercial/commercial_strategy.md)
+    *   [competitive_landscape.md](file:///Users/sohith/Desktop/cemiplimab/commercial/competitive_landscape.md)
+    *   [branding_and_positioning.md](file:///Users/sohith/Desktop/cemiplimab/commercial/branding_and_positioning.md)
+    *   [treatment_guidelines.md](file:///Users/sohith/Desktop/cemiplimab/commercial/treatment_guidelines.md)
+    *   [kols.md](file:///Users/sohith/Desktop/cemiplimab/commercial/kols.md)
 *   📂 [notebooks/](file:///Users/sohith/Desktop/cemiplimab/notebooks) — Clinical efficacy and safety analysis notebooks.
 *   📂 [docs/](file:///Users/sohith/Desktop/cemiplimab/docs) — Peer-reviewed scientific summaries.
 *   📂 [figures/](file:///Users/sohith/Desktop/cemiplimab/figures) — Exported publication-quality figures.
-    *   [patent_exclusivity_timeline.png](file:///Users/sohith/Desktop/cemiplimab/figures/patent_exclusivity_timeline.png)
-    *   [patent_jurisdiction_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/patent_jurisdiction_comparison.png)
+    *   [commercial_revenue_growth.png](file:///Users/sohith/Desktop/cemiplimab/figures/commercial_revenue_growth.png)
+    *   [commercial_efficacy_comparison.png](file:///Users/sohith/Desktop/cemiplimab/figures/commercial_efficacy_comparison.png)
 
 ---
 
@@ -86,9 +94,13 @@ This project integrates clinical oncology evidence, structural molecular biology
 ![Biomarker Heatmap](figures/biomarker_comparison_heatmap.png)
 
 ### Intellectual Property & Exclusivity
-Gantt timeline illustrating regulatory data exclusivity vs patent protection terms, and geographic patent category counts.
 ![Exclusivity Timeline](figures/patent_exclusivity_timeline.png)
 ![Patent Comparison](figures/patent_jurisdiction_comparison.png)
+
+### Commercial Landscape & Market Positioning
+Libtayo's global product sales growth (2023 vs 2024) and competitive response rate comparison.
+![Revenue Growth](figures/commercial_revenue_growth.png)
+![Efficacy Comparison](figures/commercial_efficacy_comparison.png)
 
 ---
 
@@ -110,6 +122,7 @@ Gantt timeline illustrating regulatory data exclusivity vs patent protection ter
     jupyter notebook notebooks/02_regulatory_safety.ipynb
     jupyter notebook biomarker/biomarker_analysis.ipynb
     jupyter notebook IP/patent_timeline.ipynb
+    jupyter notebook commercial/commercial_analysis.ipynb
     ```
 
 ---

@@ -53,9 +53,22 @@ This document tracks the milestones and task list for the Cemiplimab (Libtayo®)
 
 ---
 
+## 🏁 Phase 5: Commercial Landscape & Market Positioning
+- [x] Research launch history, corporate commercial strategies, and global net sales (2023 vs 2024)
+- [x] Research competitor therapies (surgery, radiation, platinum chemotherapies, cetuximab, pembrolizumab)
+- [x] Research NCCN and ESMO clinical guidelines recommendations and algorithms
+- [x] Compile key opinion leaders, clinical trial investigators, and scientific presentations
+- [x] Create structured competitor database (`commercial/commercial_summary.csv`)
+- [x] Create Jupyter Notebook `commercial/commercial_analysis.ipynb` to analyze and visualize data
+- [x] Write comprehensive documentation under `commercial/` directory
+- [x] Update `README.md` and `TASKS.md` with Phase 5 deliverables
+- [x] Verify notebooks and output figures
+
+---
+
 ## 🏃 Future Phases
 
-### Phase 5: Pharmacokinetics and Dosing Rationale
+### Phase 6: Pharmacokinetics and Dosing Rationale
 - [ ] Extract detailed PK parameters (absorption, distribution, metabolism, excretion - ADME).
 - [ ] Create PK dataset (`data/cemiplimab_pk_detail.csv`).
 - [ ] Create simulations or PK visualizations in `notebooks/03_pharmacokinetics.ipynb`.
